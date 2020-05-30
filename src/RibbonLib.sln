@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonLib", "RibbonLib\RibbonLib.csproj", "{42CC9D74-3C3E-43FF-9900-B28A6D133156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonTestApp1", "RibbonTestApp1\RibbonTestApp1.csproj", "{B9CC3DD5-26A1-441C-ABBD-58E7F05129FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42CC9D74-3C3E-43FF-9900-B28A6D133156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CC9D74-3C3E-43FF-9900-B28A6D133156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CC9D74-3C3E-43FF-9900-B28A6D133156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CC9D74-3C3E-43FF-9900-B28A6D133156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CC3DD5-26A1-441C-ABBD-58E7F05129FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CC3DD5-26A1-441C-ABBD-58E7F05129FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CC3DD5-26A1-441C-ABBD-58E7F05129FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CC3DD5-26A1-441C-ABBD-58E7F05129FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4A6AD3D-217B-4CE7-9CD5-61BC4D548886}
+	EndGlobalSection
+EndGlobal

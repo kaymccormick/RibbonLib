@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:RibbonLib"
+                    xmlns:model="clr-namespace:RibbonLib.Model">
+
+  <Style TargetType="Ribbon">
+    <Setter Property="SelectedItem" Value="{Binding SelectedItem,Mode=TwoWay}" />
+    <Setter Property="ItemsSource" Value="{Binding RibbonItems}" />
+  </Style>
+<local:ComboBoxTemplateSelector x:Key="ComboBoxTemplateSelector"></local:ComboBoxTemplateSelector>
+  <DataTemplate x:Key="RibbonModelGalleryContainer" DataType="{x:Type model:RibbonModelGallery}">
+    <RibbonGallery ItemsSource="{Binding Items}"/>
+  </DataTemplate>
+  <DataTemplate x:Key="RibbonModelGalleryCategoryContainer" DataType="{x:Type model:RibbonModelGalleryCategory}">
+    <RibbonGalleryCategory Header="{Binding Header}" ItemsSource="{Binding Items}"/>
+  </DataTemplate>
+  <DataTemplate x:Key="RibbonModelGalleryItemContainer" DataType="{x:Type model:RibbonModelGalleryItem}">
+    <RibbonGalleryItem Content="{Binding Content}"/>
+  </DataTemplate>
+  <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelTab}" ItemsSource="{Binding Items}">
+    <ContentPresenter Content="{Binding Header}" />
+  </HierarchicalDataTemplate>
+  <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelGroup}" ItemsSource="{Binding Items}">
+    <ContentPresenter Content="{Binding Label}" />
+  </HierarchicalDataTemplate>
+  <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelControlGroup}">
+    <RibbonControlGroup ItemsSource="{Binding Items}" />
+  </HierarchicalDataTemplate>
+  <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelButton}">
+    <RibbonButton Label="{Binding Label}" SmallImageSource="{Binding SmallImageSource}" Command="{Binding Command}"
+                  CommandParameter="{Binding CommandParameter}"
+                  CommandTarget="{Binding CommandTarget}" />
+  </HierarchicalDataTemplate>
+
+  <DataTemplate DataType="{x:Type model:RibbonModelGalleryItem}">
+    <ContentControl Content="{Binding Content}" />
+  </DataTemplate>
+
+
+  <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelItemComboBox}">
+    <RibbonComboBox Label="{Binding Label,NotifyOnTargetUpdated=True}" ItemsSource="{Binding Items}" ItemContainerTemplateSelector="{StaticResource ComboBoxTemplateSelector}" UsesItemContainerTemplate="True">
+      <RibbonComboBox.Resources>
+        <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelGallery}" ItemsSource="{Binding Items}">
+          <TextBlock Text="{Binding Header,NotifyOnTargetUpdated=True}" />
+        </HierarchicalDataTemplate>
+        <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelGalleryCategory}"
+                                  ItemsSource="{Binding Items}">
+          <TextBlock Text="{Binding Header,NotifyOnTargetUpdated=True}" />
+        </HierarchicalDataTemplate>
+      </RibbonComboBox.Resources>
+    </RibbonComboBox>
+  </HierarchicalDataTemplate>
+</ResourceDictionary>
