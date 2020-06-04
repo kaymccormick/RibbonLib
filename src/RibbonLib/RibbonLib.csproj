@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="MyRibbonComboBox.cs" />
     <Compile Include="Model\RibbonModelRadioButton.cs" />
     <Compile Include="MyRibbon.cs" />
     <Compile Include="MyRibbonGenHook.cs" />

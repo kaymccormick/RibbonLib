@@ -12,8 +12,1124 @@
         <ResourceDictionary
           Source="pack://application:,,,/RibbonLib;component/RibbonStyles.xaml" />
       </ResourceDictionary.MergedDictionaries>
+      <RoutedUICommand Text="Insert Fruit" x:Key="InsertFruitCommand"/>
       <BitmapImage UriSource="Asset 232.png" x:Key="Grapes"></BitmapImage>
-      <BitmapImage UriSource="Asset 332.png" x:Key="Watermelon"></BitmapImage>
+      <BitmapImage DecodePixelHeight="32" DecodePixelWidth="32" UriSource="Asset 332.png" x:Key="Watermelon"></BitmapImage>
+      <BitmapImage UriSource="Asset 4@32.png" x:Key="Strawberry"></BitmapImage>
+      <DrawingGroup ClipGeometry="M0,0 V126.38 H123.1 V0 H0 Z" x:Key="Asset_2Drawing">
+            <DrawingGroup Opacity="1">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M57.31,3.05C46.94,41.11 77.42,38.11 77.42,38.11 77.42,38.11 95.42,13.4 57.31,3.05" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF3BB878">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="55.16,3.05,36.52,45.11" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M57.31,3.05L77.42,38.1C77.42,38.1,95.42,13.4,57.31,3.05" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF259958">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="57.31,3.05,34.37,45.06" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M75.89,41.21C72.07,41.21 63.17,40.41 57.32,33.51 51.47,26.61 50.56,16.19 54.32,2.25A3.06,3.06,0,0,1,58.11,0.11C72.11,3.9 80.67,10.11 83.63,18.49 87.45,29.35 80.2,39.49 79.89,39.9A3.07,3.07,0,0,1,77.72,41.14C77.61,41.14,76.94,41.21,75.89,41.21 M59.5,6.87C57.15,17.22 58,24.84 62,29.57 66.16,34.48 72.81,35.09 75.71,35.12 77.15,32.6 80,26.49 77.86,20.47 75.79,14.64 69.62,10.08 59.51,6.87" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="52.1,0,42.64,51.21" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M59,92.85A14,14,0,1,1,45,78.85A14,14,0,0,1,59,92.85" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="30.9,78.84,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M59,92.85A14,14,0,1,1,45,78.85A14,14,0,0,1,59,92.85" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="30.9,78.84,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M45,96.09A17.26,17.26,0,0,0,58.59,89.48A14,14,0,0,0,31.41,89.48A17.26,17.26,0,0,0,45,96.09" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF7E65AC">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="31.36,78.84,37.17,27.25" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M48.51,86.19A3.56,3.56,0,1,1,45,82.64A3.55,3.55,0,0,1,48.56,86.19" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="41.39,82.64,17.13,17.11" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M45,109.92A17.07,17.07,0,1,1,62.1,92.85A17.11,17.11,0,0,1,45,109.92 M45,81.92A11,11,0,1,0,56,92.92A11,11,0,0,0,45,81.92" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="27.85,75.79,44.2,44.12" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M36.9,70.81A14.05,14.05,0,1,1,22.9,56.81A14,14,0,0,1,36.9,70.81" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="8.8,56.79,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M36.9,70.81A14.05,14.05,0,1,1,22.9,56.81A14,14,0,0,1,36.9,70.81" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="8.8,56.79,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M22.85,74A17.25,17.25,0,0,0,36.44,67.39A14,14,0,0,0,9.26,67.39A17.26,17.26,0,0,0,22.85,74" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF7E65AC">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="9.26,56.79,37.17,27.25" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M26.41,64.14A3.56,3.56,0,1,1,22.85,60.59A3.56,3.56,0,0,1,26.41,64.14" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="19.29,60.59,17.13,17.11" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M22.85,87.87A17.06,17.06,0,1,1,40,70.81A17.1,17.1,0,0,1,22.9,87.87 M22.9,59.87A11,11,0,1,0,33.9,70.87A11,11,0,0,0,22.9,59.87" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="5.75,53.75,44.2,44.12" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M93.06,58.86A14,14,0,1,1,79.06,44.86A14,14,0,0,1,93.06,58.86" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="64.97,44.85,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M93.06,58.86A14,14,0,1,1,79.06,44.86A14,14,0,0,1,93.06,58.86" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="64.97,44.85,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M79,62.1A17.26,17.26,0,0,0,92.59,55.49A14,14,0,0,0,65.41,55.49A17.25,17.25,0,0,0,79,62.1" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF7E65AC">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="65.43,44.85,37.17,27.25" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M82.58,52.2A3.56,3.56,0,1,1,79,48.64A3.55,3.55,0,0,1,82.56,52.2" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="75.46,48.64,17.13,17.11" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M79,75.92A17.06,17.06,0,1,1,96.1,58.86A17.1,17.1,0,0,1,79,75.92 M79,47.92A11,11,0,1,0,90,58.92A11,11,0,0,0,79,47.92" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="61.92,41.8,44.2,44.12" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M71,36.82A14,14,0,1,1,57,22.82A14,14,0,0,1,71,36.82" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="42.87,22.8,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M71,36.82A14,14,0,1,1,57,22.82A14,14,0,0,1,71,36.82" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="42.87,22.8,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M56.92,40.05A17.26,17.26,0,0,0,70.51,33.44A14,14,0,0,0,43.33,33.44A17.26,17.26,0,0,0,56.92,40.05" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF7E65AC">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="43.33,22.8,37.17,27.25" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M60.48,30.15A3.56,3.56,0,1,1,56.92,26.6A3.56,3.56,0,0,1,60.48,30.15" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="53.36,26.6,17.13,17.11" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M56.92,53.88A17.07,17.07,0,1,1,74,36.82A17.1,17.1,0,0,1,56.9,53.88 M56.9,25.88A11,11,0,1,0,67.9,36.88A11,11,0,0,0,56.9,25.88" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="39.82,19.75,44.2,44.12" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M65.05,64.77A14,14,0,1,1,51.05,50.77A14,14,0,0,1,65.05,64.77" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="36.96,50.76,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M65.05,64.77A14,14,0,1,1,51.05,50.77A14,14,0,0,1,65.05,64.77" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="36.96,50.76,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M51,68A17.25,17.25,0,0,0,64.59,61.39A14,14,0,0,0,37.41,61.39A17.26,17.26,0,0,0,51,68" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF7E65AC">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="37.41,50.75,37.17,27.25" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M54.56,58.1A3.56,3.56,0,1,1,51,54.55A3.56,3.56,0,0,1,54.56,58.1" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="47.44,54.55,17.13,17.11" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M51,81.83A17.06,17.06,0,1,1,68.1,64.77A17.1,17.1,0,0,1,51,81.83 M51,53.83A11,11,0,1,0,62,64.83A11,11,0,0,0,51,53.83" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="33.9,47.71,44.2,44.12" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M43,42.72A14,14,0,1,1,28.95,28.72A14,14,0,0,1,43,42.72" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="14.86,28.71,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M43,42.72A14,14,0,1,1,28.95,28.72A14,14,0,0,1,43,42.72" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="14.86,28.71,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M28.9,46A17.26,17.26,0,0,0,42.49,39.39A14,14,0,0,0,15.31,39.39A17.26,17.26,0,0,0,28.9,46" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF7E65AC">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="15.31,28.71,37.17,27.25" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M32.46,36.05A3.56,3.56,0,1,1,28.9,32.5A3.56,3.56,0,0,1,32.46,36.05" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="25.34,32.5,17.13,17.11" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M28.9,59.78A17.06,17.06,0,1,1,46,42.72A17.1,17.1,0,0,1,28.9,59.78 M28.9,31.78A11,11,0,1,0,39.9,42.78A11,11,0,0,0,28.9,31.78" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="11.8,25.66,44.2,44.12" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M86,85.7A14,14,0,1,1,72,71.7A14,14,0,0,1,86,85.7" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="57.94,71.69,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M86,85.7A14,14,0,1,1,72,71.7A14,14,0,0,1,86,85.7" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="57.94,71.69,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M72,88.93A17.28,17.28,0,0,0,85.59,82.33A14,14,0,0,0,58.42,82.33A17.25,17.25,0,0,0,72,88.93" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF7E65AC">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="58.4,71.69,37.17,27.25" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M75.55,79A3.57,3.57,0,1,1,72,75.48A3.56,3.56,0,0,1,75.55,79" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="68.42,75.48,17.13,17.11" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M72,102.76A17.06,17.06,0,1,1,89.08,85.7A17.1,17.1,0,0,1,72,102.76 M72,74.76A11,11,0,1,0,83,85.76A11,11,0,0,0,72,74.76" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="54.88,68.64,44.2,44.12" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M31.15,99.32A14.05,14.05,0,1,1,17.15,85.32A14,14,0,0,1,31.15,99.32" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="3.05,85.31,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M31.15,99.32A14.05,14.05,0,1,1,17.15,85.32A14,14,0,0,1,31.15,99.32" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF6E56A4">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="3.05,85.31,38.09,38.03" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M17.1,102.56A17.26,17.26,0,0,0,30.69,96A14,14,0,0,0,3.51,96A17.26,17.26,0,0,0,17.1,102.61" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF7E65AC">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="3.51,85.31,37.17,27.25" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M20.66,92.66A3.56,3.56,0,1,1,17.1,89.1A3.55,3.55,0,0,1,20.66,92.66" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="13.54,89.1,17.13,17.11" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M17.1,116.38A17.06,17.06,0,1,1,34.2,99.38A17.09,17.09,0,0,1,17.1,116.38 M17.1,88.38A11,11,0,1,0,28.1,99.38A11,11,0,0,0,17.1,88.38" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,82.26,44.2,44.12" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M70.11,48.82A3.05,3.05,0,0,1,67.86,43.71C77.3,33.47,84.89,29,90.67,27.36A19.45,19.45,0,0,1,92.86,25A16.78,16.78,0,0,1,111.25,21.64A3,3,0,0,1,112.85,25.64A3.08,3.08,0,0,1,108.85,27.24A10.22,10.22,0,0,0,100.46,27.24A12.62,12.62,0,0,1,102.95,28.33A11.3,11.3,0,0,1,108.25,41.38C107.1,44.93 103.53,48.51 97.05,47.87 90.4,47.22 88.13,43.33 87.36,41.06A11.53,11.53,0,0,1,87,35.53C82.84,37.88,77.94,41.81,72.39,47.83A3,3,0,0,1,70.14,48.83 M94.38,32.83C93.09,35.06 92.58,37.43 93.16,39.16 93.68,40.7 95.16,41.6 97.65,41.84 99.44,42.01 101.73,41.75 102.44,39.55A5.24,5.24,0,0,0,99.88,33.64A8.46,8.46,0,0,0,94.38,32.83" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-373,-297.88,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="67.05,20.24,56.04,38.58" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        
+      <DrawingGroup ClipGeometry="M0,0 V119.94 H119.09 V0 H0 Z" x:Key="Asset_4Drawing">
+            <DrawingGroup Opacity="1">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M82.87,83.29C67.38,98.78 24.63,116.41 9.14,100.91 -6.35,85.41 11.26,42.67 26.76,27.18 42.26,11.69 62.34,16.72 77.84,32.18 93.34,47.64 98.36,67.77 82.84,83.26" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFE44462">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="3.13,17.77,99.14,99.14" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M85.39,41.37C89.14,52.29 87.39,63.64 77.84,73.22 62.34,88.72 19.6,106.34 4.1,90.84L3.89,90.59A20.21,20.21,0,0,0,9.14,100.91C24.63,116.4 67.37,98.79 82.87,83.29 95.45,70.71 94.5,55.09 85.39,41.37" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFBC3B5B">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="3.89,41.37,98.39,75.55" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M26.76,109.94C18.76,109.94 11.76,107.94 6.92,103.12 -0.849999999999998,95.36 -2.08,81.12 3.33,63.12 7.73,48.59 16.25,33.25 24.54,25 39.87,9.63 61.66,11.61 80.05,30 98.44,48.39 100.42,70.17 85.05,85.51 73.61,97 47.13,109.94 26.76,109.94 M48,20.93C41.52,20.93 35,23.38 29,29.39 21.35,37 13.45,51.3 9.32,65 4.64,80.47 5.38,92.77 11.32,98.74 25.21,112.63 66.32,95.43 80.63,81.13 95.97,65.78 88.08,46.97 75.63,34.48 68,26.83 58.09,20.93 48,20.93" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,14.7,105.35,105.24" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M42,63A3.55,3.55,0,0,1,47,68C45.62,69.39 40.5,72.26 39.12,70.87 37.74,69.48 40.63,64.4 42,63" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="38.78,61.98,19.29,19.29" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M37.8,39.22A3.55,3.55,0,1,1,42.8,44.22C41.42,45.61 36.3,48.48 34.92,47.09 33.54,45.7 36.4,40.59 37.78,39.21" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="34.57,38.18,19.29,19.29" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M23.89,62.64A3.55,3.55,0,0,1,28.89,67.64C27.52,69 22.41,71.91 21,70.52 19.59,69.13 22.48,64.02 23.86,62.64" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="20.66,61.6,19.29,19.29" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M68,74.44A3.55,3.55,0,0,0,63,69.44C61.62,70.82 58.75,75.94 60.14,77.32 61.53,78.7 66.64,75.84 68.02,74.46" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="59.74,68.38,19.29,19.29" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M44.57,88.35A3.55,3.55,0,0,0,39.57,83.35C38.19,84.74 35.32,89.85 36.71,91.24 38.1,92.63 43.21,89.75 44.59,88.37" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="36.32,82.29,19.29,19.29" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M78.2,49.93C78.2,49.93,65.3,55.71,56,54.05A21.55,21.55,0,0,1,64.87,36.6C64.87,36.6 50.51,30.74 45.87,12.48 45.87,12.48 55.64,11.2 66.04,20.76 66.04,20.76 73.48,11.2 70.5,3.14 70.5,3.14 86.13,10.27 82.78,27.3 82.78,27.3 97.31,28.13 105.99,36.87 105.99,36.87 103.13,41.43 94.35,43.97 94.35,43.97 100.8,53.52 101.79,62.72 101.79,62.72 91.55,63.25 78.23,49.93" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF3BB878">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="45.84,3.14,70.11,69.59" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M78.2,49.93C78.2,49.93,65.3,55.71,56,54.05A21.55,21.55,0,0,1,64.87,36.6C64.87,36.6 50.51,30.74 45.87,12.48 45.87,12.48 55.64,11.2 66.04,20.76 66.04,20.76 73.48,11.2 70.5,3.14 70.5,3.14 86.13,10.27 82.78,27.3 82.78,27.3 97.31,28.13 105.99,36.87 105.99,36.87 103.13,41.43 94.35,43.97 94.35,43.97 100.8,53.52 101.79,62.72 101.79,62.72 91.55,63.25 78.23,49.93" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF259958">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="45.84,3.14,70.11,69.59" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M99.77,54.77A57.16,57.16,0,0,0,94.32,44C103.1,41.46 105.96,36.9 105.96,36.9 97.28,28.16 82.75,27.33 82.75,27.33 86.1,10.33 70.47,3.16 70.47,3.16 73.45,11.2 66,20.76 66,20.76 58,13.44 50.48,12.48 47.36,12.43A17,17,0,0,1,46.75,15.56C52.14,31.4,64.86,36.56,64.86,36.56A20.7,20.7,0,0,0,57.31,46.56C67,48.15 80.24,42.22 80.24,42.22 88.33,50.31 95.32,53.5 99.76,54.76" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF3BB878">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="46.76,3.13,69.19,61.63" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M101.64,65.86C99.82,65.86 89.89,65.29 77.49,53.6 73.31,55.23 63.39,58.55 55.49,57.14A3.13,3.13,0,0,1,52.92,54.21A24.75,24.75,0,0,1,59.52,37.21A40,40,0,0,1,42.81,13.25A3.13,3.13,0,0,1,45.44,9.37C45.84,9.31 54.3,8.37 64.05,15.16 65,11 66.38,5.35 67.51,2.1A3.22,3.22,0,0,1,69.24,0.25A3.18,3.18,0,0,1,71.77,0.25C77.5,2.9 87.26,11.15 86.28,24.56 91.41,25.37 101.28,27.76 108.18,34.66A3.12,3.12,0,0,1,108.61,38.53C108.31,39.02 105.76,42.81 98.98,45.64 101.1,49.46 104.18,55.93 104.87,62.39A3.14,3.14,0,0,1,101.87,65.85L101.59,65.85 M78.19,46.79A3.13,3.13,0,0,1,80.41,47.71C87.77,55.07,94.06,57.87,97.84,58.94A51.67,51.67,0,0,0,91.72,45.72A3.13,3.13,0,0,1,93.45,41A22.82,22.82,0,0,0,101.45,37.1C93.64,31.17,82.71,30.47,82.59,30.46A3.11,3.11,0,0,1,79.7,26.73C81.7,16.73 76.09,10.73 72.32,7.94 70.76,13.6 69.12,21.35 69.1,21.45A3.13,3.13,0,0,1,63.92,23.1A27.51,27.51,0,0,0,50.2,15.87C55.2,29,65.59,33.51,66.07,33.71A3.14,3.14,0,0,1,66.69,39.16A18.07,18.07,0,0,0,59.33,51.22L59.67,51.22C67.51,51.22,76.81,47.12,76.92,47.07A3,3,0,0,1,78.19,46.79" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="42.71,0,76.38,75.86" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M77.82,35.36A3.14,3.14,0,0,1,75.36,30.29C76.61,28.71,87.79,14.83,96.79,14A3.13,3.13,0,0,1,97.4,20.24C92.59,20.71,84.34,29.06,80.28,34.24A3.14,3.14,0,0,1,77.82,35.43" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="74.69,13.94,35.54,31.42" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M20.66,53.73A2.42,2.42,0,0,1,19.87,53.6A2.36,2.36,0,0,1,18.44,50.6C18.57,50.22,21.75,41.4,27.37,36.52A2.35,2.35,0,1,1,30.45,40.07C25.75,44.14,22.9,52.07,22.87,52.17A2.35,2.35,0,0,1,20.66,53.73" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="18.31,35.95,22.96,27.78" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M36,30.59A3.07,3.07,0,0,1,32,35.28A3.07,3.07,0,1,1,36,30.59" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-912,-302.46,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="30.92,29.86,16.14,16.14" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+      <DrawingGroup ClipGeometry="M0,0 V85.47 H154.74 V0 H0 Z" x:Key="Asset_3Drawing">
+            <DrawingGroup Opacity="1">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M72.37,72.5A69.47,69.47,0,0,0,141.78,3L3,3A69.47,69.47,0,0,0,72.37,72.5" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF3BB878">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="2.96,2.97,148.82,79.54" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M130,3A69.48,69.48,0,0,1,66.5,72.26C68.5,72.43,70.42,72.53,72.42,72.53A69.47,69.47,0,0,0,141.78,3z" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF259958">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="66.45,2.97,85.33,79.54" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M72.37,75.47A72.53,72.53,0,0,1,0,3A3,3,0,0,1,3,0L141.78,0A3,3,0,0,1,144.78,3A72.52,72.52,0,0,1,72.37,75.47z M6,5.93A66.45,66.45,0,0,0,138.78,5.93z" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,154.74,85.47" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M72.37,59.91A56.89,56.89,0,0,0,129.21,3L15.53,3A56.89,56.89,0,0,0,72.37,60" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFE44462">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="15.53,2.96,123.69,66.95" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M72.37,62.88A59.93,59.93,0,0,1,12.57,3A3,3,0,0,1,15.57,0L129.22,0A3,3,0,0,1,132.22,3A59.93,59.93,0,0,1,72.37,62.88z M18.57,5.93A53.88,53.88,0,0,0,126.17,5.93z" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="12.57,0,129.61,72.88" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M117.38,3A56.91,56.91,0,0,1,66.45,59.6A55.2,55.2,0,0,0,72.37,59.92A56.9,56.9,0,0,0,129.22,3z" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFBC3B5B">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="66.45,2.97,72.76,66.95" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M72.37,62.88A59.93,59.93,0,0,1,12.57,3A3,3,0,0,1,15.57,0L129.22,0A3,3,0,0,1,132.22,3A59.93,59.93,0,0,1,72.37,62.88z M18.57,5.93A53.88,53.88,0,0,0,126.17,5.93z" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="12.57,0,129.61,72.88" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M75.32,29.69A2.95,2.95,0,0,1,69.42,29.69C69.42,28.05 70.74,23.36 72.42,23.36 74.1,23.36 75.37,28.05 75.37,29.69" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="69.42,23.36,15.9,19.29" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M50.2,24.74A3,3,0,0,0,55.2,27.83C56.05,26.43 57.37,21.73 55.98,20.88 54.59,20.03 50.98,23.35 50.17,24.74" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="49.76,20.74,16.85,18.5" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M40.9,17.87A3,3,0,0,1,38.23,12.6C39.69,11.86 44.47,10.92 45.23,12.37 45.99,13.82 42.38,17.14 40.92,17.87" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="36.62,11.61,18.69,16.58" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M94.1,24.74A3,3,0,0,1,89.1,27.83C88.25,26.43 86.92,21.73 88.31,20.88 89.7,20.03 93.31,23.35 94.13,24.74" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="87.68,20.74,16.85,18.5" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M103.39,17.87A3,3,0,1,0,106.06,12.6C104.61,11.86 99.83,10.92 99.06,12.37 98.29,13.82 101.91,17.14 103.36,17.87" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FF46494A">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="98.99,11.61,18.69,16.58" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M37.2,34.08A2.19,2.19,0,0,1,35.63,33.43A42,42,0,0,1,26.72,19.5A2.22,2.22,0,1,1,30.83,17.83A37.63,37.63,0,0,0,38.77,30.29A2.22,2.22,0,0,1,38.77,33.43A2.18,2.18,0,0,1,37.2,34.08" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="26.56,16.44,22.86,27.64" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup.ClipGeometry>
+                    <PathGeometry FillRule="Nonzero" Figures="M28.18,10.05A2.91,2.91,0,0,1,24.43,14.49A2.92,2.92,0,0,1,24.09,10.39A2.89,2.89,0,0,1,28.18,10.05" />
+                  </DrawingGroup.ClipGeometry>
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup.ClipGeometry>
+                      <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-538,-325,1400,960" />
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                      <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.4,9.36,15.81,15.82" />
+                      </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
       <Style TargetType="RibbonControlGroup">
         <Setter Property="Template">
           <Setter.Value>
@@ -44,7 +1160,7 @@
     <RowDefinition Height="*"></RowDefinition></Grid.RowDefinitions>
         <Ribbon/>
     <Grid Grid.Row="1">
-      <WrapPanel x:Name="WrapPanel"></WrapPanel>
+      <RichTextBox x:Name="RichTextBox" IsDocumentEnabled="True"></RichTextBox>
     </Grid>
     </Grid>
 </Window>

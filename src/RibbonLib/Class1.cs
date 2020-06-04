@@ -14,7 +14,7 @@ namespace RibbonLib
         /// <inheritdoc />
         public override DataTemplate SelectTemplate(object item, ItemsControl parentItemsControl)
         {
-            if (item is RibbonModelGallery)
+                if (item is RibbonModelGallery)
             {
                 return parentItemsControl.TryFindResource("RibbonModelGalleryContainer") as DataTemplate;
             }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonLib", "RibbonLib\Ribb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonTestApp1", "RibbonTestApp1\RibbonTestApp1.csproj", "{B9CC3DD5-26A1-441C-ABBD-58E7F05129FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{28350DC9-3B6E-450E-96AD-1E2EE5125635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B9CC3DD5-26A1-441C-ABBD-58E7F05129FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9CC3DD5-26A1-441C-ABBD-58E7F05129FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9CC3DD5-26A1-441C-ABBD-58E7F05129FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28350DC9-3B6E-450E-96AD-1E2EE5125635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28350DC9-3B6E-450E-96AD-1E2EE5125635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28350DC9-3B6E-450E-96AD-1E2EE5125635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28350DC9-3B6E-450E-96AD-1E2EE5125635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

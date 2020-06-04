@@ -28,26 +28,37 @@
   </HierarchicalDataTemplate>
   <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelButton}">
     <RibbonButton Label="{Binding Label}" SmallImageSource="{Binding SmallImageSource}" Command="{Binding Command}"
+                  LargeImageSource="{Binding LargeImageSource}"
                   CommandParameter="{Binding CommandParameter}"
                   CommandTarget="{Binding CommandTarget}" />
   </HierarchicalDataTemplate>
+  <DataTemplate DataType="{x:Type model:RibbonModelItemMenuButton}">
+    <RibbonMenuButton ItemContainerTemplateSelector="{StaticResource ComboBoxTemplateSelector}"
+                      UsesItemContainerTemplate="True"
+                      Visibility="{Binding Visibility}"
+                      LargeImageSource="{Binding LargeImageSource}"
+                      SmallImageSource="{Binding SmallImageSource}"
+                      IsDropDownOpen="{Binding IsDropDownOpen,Mode=TwoWay}"
+                      Foreground="{Binding Foreground}" Label="{Binding Label}" 
+                      Background="{Binding Background}"
+                      ItemsSource="{Binding Items}">
+    </RibbonMenuButton>
+  </DataTemplate>
 
   <DataTemplate DataType="{x:Type model:RibbonModelGalleryItem}">
     <ContentControl Content="{Binding Content}" />
   </DataTemplate>
 
+  <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelGallery}" ItemsSource="{Binding Items}">
+    <TextBlock Text="{Binding Header,NotifyOnTargetUpdated=True}" />
+  </HierarchicalDataTemplate>
+  <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelGalleryCategory}"
+                            ItemsSource="{Binding Items}">
+    <TextBlock Text="{Binding Header,NotifyOnTargetUpdated=True}" />
+  </HierarchicalDataTemplate>
 
   <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelItemComboBox}">
     <RibbonComboBox Label="{Binding Label,NotifyOnTargetUpdated=True}" ItemsSource="{Binding Items}" ItemContainerTemplateSelector="{StaticResource ComboBoxTemplateSelector}" UsesItemContainerTemplate="True">
-      <RibbonComboBox.Resources>
-        <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelGallery}" ItemsSource="{Binding Items}">
-          <TextBlock Text="{Binding Header,NotifyOnTargetUpdated=True}" />
-        </HierarchicalDataTemplate>
-        <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelGalleryCategory}"
-                                  ItemsSource="{Binding Items}">
-          <TextBlock Text="{Binding Header,NotifyOnTargetUpdated=True}" />
-        </HierarchicalDataTemplate>
-      </RibbonComboBox.Resources>
     </RibbonComboBox>
   </HierarchicalDataTemplate>
 </ResourceDictionary>
