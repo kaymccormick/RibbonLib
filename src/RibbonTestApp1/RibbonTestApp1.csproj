@@ -96,12 +96,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RibbonLib\RibbonLib.csproj">
-      <Project>{42cc9d74-3c3e-43ff-9900-b28a6d133156}</Project>
-      <Name>RibbonLib</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Asset 232.png" />
   </ItemGroup>
   <ItemGroup>
