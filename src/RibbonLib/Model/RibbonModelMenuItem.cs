@@ -5,7 +5,7 @@ namespace RibbonLib.Model
     /// <summary>
     /// 
     /// </summary>
-    public class RibbonModelMenuItem: RibbonModelItem
+    public class RibbonModelMenuItem: RibbonModelItem, IHasMenuItems
     {
         private bool _isEnabled = true;
         private object _header;
@@ -208,5 +208,11 @@ namespace RibbonLib.Model
 
         /// <inheritdoc />
         public override ControlKind Kind => ControlKind.RibbonMenuItem;
+
+        /// <inheritdoc />
+        public void AddItem(object o)
+        {
+            Items.Add(o);
+        }
     }
 }

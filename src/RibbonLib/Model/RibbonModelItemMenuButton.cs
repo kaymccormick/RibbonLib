@@ -7,7 +7,7 @@ namespace RibbonLib.Model
     /// 
     /// </summary>
     /// 
-    public sealed class RibbonModelItemMenuButton : RibbonModelItem
+    public sealed class RibbonModelItemMenuButton : RibbonModelItem, IHasMenuItems
     {
         private RibbonModelMenuCollection  _items = new RibbonModelMenuCollection();
         private IEnumerable _items1;
@@ -82,5 +82,11 @@ namespace RibbonLib.Model
         }
 
         public object ItemContainerTemplateKey { get; set; }
+
+        /// <inheritdoc />
+        public void AddItem(object o)
+        {
+            ItemsCollection.Add(o);
+        }
     }
 }
