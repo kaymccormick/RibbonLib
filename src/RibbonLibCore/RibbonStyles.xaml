@@ -95,7 +95,9 @@
     <RibbonControlGroup ItemsSource="{Binding Items}" />
   </HierarchicalDataTemplate>
   <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelButton}">
-    <RibbonButton Label="{Binding Label}" SmallImageSource="{Binding SmallImageSource}" Command="{Binding Command}"
+    <RibbonButton Background="{Binding Background}" TextElement.FontWeight="{Binding FontWeight}"
+                  TextElement.FontSize="{Binding FontSize}"
+Label="{Binding Label}" SmallImageSource="{Binding SmallImageSource}" Command="{Binding Command}"
                   LargeImageSource="{Binding LargeImageSource}"
                   CommandParameter="{Binding CommandParameter}"
                   CommandTarget="{Binding CommandTarget}" />
