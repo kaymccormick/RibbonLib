@@ -12,13 +12,13 @@ namespace RibbonLib.Model
     /// 
     /// </summary>
     [TypeConverter(typeof(RibbonModelItemTypeConverter))]
-    public abstract class RibbonModelItem : IRibbonModelGroupItem, INotifyPropertyChanged, IRibbonModelItem
+    public abstract class RibbonModelItem : DependencyObject, IRibbonModelGroupItem, INotifyPropertyChanged, IRibbonModelItem
     {
         
         private ICommand _command;
         private Brush _foreground = Brushes.Black;
         private Brush _background;
-        private object _label;
+
         private object _commandTarget;
         private object _commandParameter;
         private object _largeImageSource;
@@ -31,6 +31,14 @@ namespace RibbonLib.Model
         private Visibility _visibility = Visibility.Visible;
         private Brush _borderBrush;
 
+        public static readonly DependencyProperty LabelProperty = DependencyProperty.Register(
+            "Label", typeof(string), typeof(RibbonModelItem), new PropertyMetadata(default(string)));
+
+        public string Label
+        {
+            get { return (string) GetValue(LabelProperty); }
+            set { SetValue(LabelProperty, value); }
+        }
         public Brush BorderBrush
         {
             get { return _borderBrush; }
@@ -80,22 +88,6 @@ namespace RibbonLib.Model
         /// </summary>
         // ReSharper disable once MemberCanBeProtected.Global
         public abstract ControlKind Kind { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        [DefaultValue(null)]
-        public object Label
-        {
-            get { return _label; }
-            set
-            {
-                if (Equals(value, _label)) return;
-                _label = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(StringLabel));
-            }
-        }
 
         
         /// <summary>
@@ -265,16 +257,6 @@ namespace RibbonLib.Model
 
         /// <inheritdoc />
         public event PropertyChangedEventHandler PropertyChanged;
-
-        /// <summary>
-        /// 
-        /// </summary>
-        // ReSharper disable once UnusedMember.Global
-        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-        public string StringLabel
-        {
-            get { return Label?.ToString(); }
-        }
 
         public virtual object TemplateKey { get; set; }
 

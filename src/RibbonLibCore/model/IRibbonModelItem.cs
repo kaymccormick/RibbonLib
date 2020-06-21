@@ -13,7 +13,7 @@ namespace RibbonLib.Model
         /// <summary>
         /// 
         /// </summary>
-        object Label { get; set; }
+        string Label { get; set; }
 
         
         /// <summary>
@@ -75,7 +75,7 @@ namespace RibbonLib.Model
         /// 
         /// </summary>
 // ReSharper disable once UnusedMember.Global
-        string StringLabel { get; }
+
 
         object TemplateKey { get; set; }
     }

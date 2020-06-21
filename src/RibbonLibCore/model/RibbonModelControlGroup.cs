@@ -84,7 +84,7 @@ namespace RibbonLib.Model
         {
             foreach (var keyValuePair in dictionary)
             {
-                var cat = new RibbonModelGalleryCategory() { Label = keyValuePair.Key };
+                var cat = new RibbonModelGalleryCategory() { Label = keyValuePair.Key.ToString() };
                 foreach (var vv in (IEnumerable)keyValuePair.Value)
 
                 {

@@ -1,4 +1,6 @@
-﻿namespace RibbonLib.Model
+﻿using System.Windows;
+
+namespace RibbonLib.Model
 {
     /// <summary>
     /// &lt;HierarchicalDataTemplate DataType="{x:Type ribbonModel:RibbonModelButton}"&gt;
@@ -7,8 +9,35 @@
     /// </summary>
     public class RibbonModelButton : RibbonModelItem
     {
+        private double _fontSize;
+        private FontWeight _fontWeight;
+
         /// <inheritdoc />
         public override ControlKind Kind => ControlKind.RibbonButton;
+
+        public object ModelInstance { get; set; }
+
+        public double FontSize
+        {
+            get { return _fontSize; }
+            set
+            {
+                if (value.Equals(_fontSize)) return;
+                _fontSize = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public FontWeight FontWeight
+        {
+            get { return _fontWeight; }
+            set
+            {
+                if (value.Equals(_fontWeight)) return;
+                _fontWeight = value;
+                OnPropertyChanged();
+            }
+        }
 
         /// <inheritdoc />
         public override string ToString()
