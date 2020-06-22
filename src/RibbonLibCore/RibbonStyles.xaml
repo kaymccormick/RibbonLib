@@ -96,6 +96,7 @@
   </HierarchicalDataTemplate>
   <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelButton}">
     <RibbonButton Background="{Binding Background}" TextElement.FontWeight="{Binding FontWeight}"
+                  ToolTipDescription="{Binding ToolTipDescription}"
                   TextElement.FontSize="{Binding FontSize}"
 Label="{Binding Label}" SmallImageSource="{Binding SmallImageSource}" Command="{Binding Command}"
                   LargeImageSource="{Binding LargeImageSource}"
