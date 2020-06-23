@@ -13,7 +13,7 @@ namespace RibbonLib.Model
     /// <summary>
     /// 
     /// </summary>
-    [ContentProperty("Items")]
+    [ContentProperty("ItemsCollection")]
     public class RibbonModelTab : INotifyPropertyChanged, IRibbonModelTab
     {
         /// <summary>
@@ -105,7 +105,8 @@ namespace RibbonLib.Model
         // ReSharper disable once UnusedAutoPropertyAccessor.Global
         public PrimaryRibbonModel RibbonModel { get; set; }
 
-        public virtual ICollection<IRibbonModelGroup> ItemsCollection => _items;
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
+        public virtual IList ItemsCollection => _items;
 
         /// <summary>
         /// 
