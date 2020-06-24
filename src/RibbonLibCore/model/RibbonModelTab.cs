@@ -106,6 +106,7 @@ namespace RibbonLib.Model
         public PrimaryRibbonModel RibbonModel { get; set; }
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
+
         public virtual IList ItemsCollection => _items;
 
         /// <summary>
