@@ -39,7 +39,9 @@ namespace RibbonLib.Model
             }
         }
 
-        public string ToolTipDescription { get; set; }
+
+
+        public object ToolTipDescription { get; set; }
 
         /// <inheritdoc />
         public override string ToString()
