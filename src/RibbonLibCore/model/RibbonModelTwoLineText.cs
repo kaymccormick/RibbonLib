@@ -11,7 +11,7 @@ namespace RibbonLib.Model
         private Geometry _pathData;
         private Brush _pathFill;
         private Brush _pathStroke = Brushes.Black;
-        private string _text;
+        private object _text;
         private bool _hasTwoLines;
 
         /// <summary>
@@ -63,7 +63,7 @@ namespace RibbonLib.Model
         /// 
         /// </summary>
         [DefaultValue(null)]
-        public string Text
+        public object Text
         {
             get { return _text; }
             set

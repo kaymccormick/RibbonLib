@@ -27,10 +27,10 @@ namespace RibbonLib
                 return parentItemsControl.TryFindResource("RibbonModelGalleryItemContainer") as DataTemplate;
             }
             else if (item is RibbonModelSeparator)
-            {
-                return parentItemsControl.TryFindResource("RibbonModelSeparatorContainer") as DataTemplate;
-            }
-            else if (item is RibbonModelItem i)
+                {
+                    return parentItemsControl.TryFindResource("RibbonModelSeparatorContainer") as DataTemplate;
+                }
+                else if (item is RibbonModelItem i)
             {
                 switch (i.Kind)
                 {

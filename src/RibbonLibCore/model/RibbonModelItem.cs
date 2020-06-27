@@ -275,7 +275,18 @@ namespace RibbonLib.Model
 
     public class RibbonModelControl : RibbonModelItem
     {
-        public object Content { get; set; }
+        private object _content;
+
+        public object Content
+        {
+            get { return _content; }
+            set
+            {
+                if (Equals(value, _content)) return;
+                _content = value;
+                OnPropertyChanged();
+            }
+        }
 
         /// <inheritdoc />
         public override ControlKind Kind { get; } = ControlKind.Generic;

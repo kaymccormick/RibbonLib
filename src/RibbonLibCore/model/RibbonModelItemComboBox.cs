@@ -11,6 +11,7 @@ namespace RibbonLib.Model
     public class RibbonModelItemComboBox : RibbonModelItem, INotifyPropertyChanged
     {
         private object _selectionBoxItem;
+        private string _displayMemberPath;
 
         public RibbonModelItemComboBox()
         {
@@ -56,5 +57,16 @@ namespace RibbonLib.Model
         }
 
         public override ControlKind Kind => ControlKind.RibbonComboBox;
+
+        public string DisplayMemberPath
+        {
+            get { return _displayMemberPath; }
+            set
+            {
+                if (value == _displayMemberPath) return;
+                _displayMemberPath = value;
+                OnPropertyChanged();
+            }
+        }
     }
 }
