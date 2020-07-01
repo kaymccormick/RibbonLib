@@ -8,12 +8,21 @@
                 Value="{Binding ContextualTabGroupHeader,NotifyOnTargetUpdated=True}" />
     </Style>
     <Style TargetType="Ribbon">
-
+        <Setter Property="Visibility" Value="{Binding RelativeSource={RelativeSource TemplatedParent},Path=Ribbon}"/> 
         <Setter Property="SelectedItem" Value="{Binding SelectedItem,Mode=TwoWay}" />
         <Setter Property="ItemsSource" Value="{Binding RibbonItems}" />
         <Setter Property="ItemContainerStyle" Value="{StaticResource {x:Type RibbonTab}}" />
         <Setter Property="ContextualTabGroupsSource" Value="{Binding ContextualTabGroups}" />
     </Style>
+
+    <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelAppMenuItem}" ItemsSource="{Binding Items}"
+                              >
+        <RibbonApplicationMenuItem Header="{Binding Header}" ImageSource="{Binding ImageSource}"
+                                   KeyTip="{Binding KeyTip}" Command="{Binding Command}" CommandTarget="{Binding RelativeSource={RelativeSource FindAncestor,AncestorType=Window},Path=ViewModel.View}" />
+    </HierarchicalDataTemplate>
+    <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelAppSplitMenuItem}" ItemsSource="{Binding Items}">
+        <TextBlock FontSize="14" FontStyle="Italic" Text="{Binding Header}" />
+    </HierarchicalDataTemplate>
 
     <Style TargetType="{x:Type RibbonContextualTabGroup}">
         <Setter Property="HeaderTemplate">
