@@ -28,7 +28,7 @@
     <Setter Property="Visibility" Value="{Binding Visibility,Mode=TwoWay,NotifyOnTargetUpdated=True,NotifyOnSourceUpdated=True}" />
   </Style>
   <DataTemplate DataType="{x:Type model:RibbonModelRadioButton}">
-    <RibbonRadioButton GroupName="{Binding GroupName}"  Label="{Binding Label}" IsChecked="{Binding IsChecked}" />
+    <RibbonRadioButton LargeImageSource="{Binding LargeImageSource}" IsEnabled="{Binding IsEnabled}" GroupName="{Binding GroupName}"  Label="{Binding Label}" IsChecked="{Binding IsChecked}" />
   </DataTemplate>
   <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelMenuItem}" ItemsSource="{Binding Items}">
     <ContentControl Content="{Binding Header}" />

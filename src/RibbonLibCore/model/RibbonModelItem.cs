@@ -30,6 +30,18 @@ namespace RibbonLib.Model
         private double? _width;
         private Visibility _visibility = Visibility.Visible;
         private Brush _borderBrush;
+        private bool _isEnabled = true;
+
+        public bool IsEnabled
+        {
+            get { return _isEnabled; }
+            set
+            {
+                if (value == _isEnabled) return;
+                _isEnabled = value;
+                OnPropertyChanged();
+            }
+        }
 
         public static readonly DependencyProperty LabelProperty = DependencyProperty.Register(
             "Label", typeof(string), typeof(RibbonModelItem), new PropertyMetadata(default(string)));
@@ -271,13 +283,5 @@ namespace RibbonLib.Model
             RibbonDebugUtils.OnPropertyChanged(this, propertyName);
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-    }
-
-    public class RibbonModelControl : RibbonModelItem
-    {
-        public object Content { get; set; }
-
-        /// <inheritdoc />
-        public override ControlKind Kind { get; } = ControlKind.Generic;
     }
 }
