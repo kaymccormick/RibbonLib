@@ -44,7 +44,42 @@
         <ContentControl Content="{Binding Header}" />
     </HierarchicalDataTemplate>
     <Style TargetType="{x:Type RibbonMenuItem}">
-
+  <Style TargetType="{x:Type RibbonContextualTabGroup}">
+    <Setter Property="HeaderTemplate">
+      <Setter.Value>
+        <DataTemplate>
+          <TextBlock Text="{Binding}"/>
+        </DataTemplate>
+      </Setter.Value>
+    </Setter>
+    <Setter Property="Header" Value="{Binding Header,NotifyOnTargetUpdated=True}" />
+    <Setter Property="ContentPresenter.Content" Value="{Binding Header,NotifyOnTargetUpdated=True}" />
+    <Setter Property="Visibility" Value="{Binding Visibility,Mode=TwoWay,NotifyOnTargetUpdated=True,NotifyOnSourceUpdated=True}" />
+  </Style>
+  <DataTemplate DataType="{x:Type model:RibbonModelRadioButton}">
+    <RibbonRadioButton Command="{Binding Command}"  LargeImageSource="{Binding LargeImageSource}" IsEnabled="{Binding IsEnabled}" GroupName="{Binding GroupName}"  Label="{Binding Label}" IsChecked="{Binding IsChecked}" />
+  </DataTemplate>
+  <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelMenuItem}" ItemsSource="{Binding Items}">
+    <ContentControl Content="{Binding Header}" />
+  </HierarchicalDataTemplate>
+  <Style TargetType="{x:Type RibbonMenuItem}">
+    <Setter Property="Header" Value="{Binding Header}" />
+    <Setter Property="ImageSource" Value="{Binding Image}" />
+    <Setter Property="RibbonControlService.ToolTipTitle" Value="{Binding ToolTipTitle}" />
+    <Setter Property="RibbonControlService.ToolTipDescription" Value="{Binding ToolTipDescription}" />
+    <Setter Property="RibbonControlService.ToolTipImageSource" Value="{Binding ToolTipImage}" />
+    <Setter Property="RibbonControlService.ToolTipFooterTitle" Value="{Binding ToolTipFooterTitle}" />
+    <Setter Property="RibbonControlService.ToolTipFooterDescription" Value="{Binding ToolTipFooterDescription}" />
+    <Setter Property="RibbonControlService.ToolTipFooterImageSource" Value="{Binding ToolTipFooterImage}" />
+    <Setter Property="KeyTipService.KeyTip" Value="{Binding KeyTip}" />
+    <Setter Property="CommandParameter" Value="{Binding CommandParameter}" />
+    <Setter Property="Command" Value="{Binding Command}" />
+    <Setter Property="IsCheckable" Value="{Binding IsCheckable}" />
+    <Setter Property="IsChecked" Value="{Binding IsChecked}" />
+    <Setter Property="CanUserResizeVertically" Value="{Binding IsVerticallyResizable}" />
+    <Setter Property="CanUserResizeHorizontally" Value="{Binding IsHorizontallyResizable}" />
+    <Setter Property="IsEnabled" Value="{Binding IsEnabled}" />
+    <Setter Property="ItemsSource" Value="{Binding Items}" />
         <Setter Property="ImageSource" Value="{Binding Image}" />
         <Setter Property="RibbonControlService.ToolTipTitle" Value="{Binding ToolTipTitle}" />
         <Setter Property="RibbonControlService.ToolTipDescription" Value="{Binding ToolTipDescription}" />
