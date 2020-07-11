@@ -1,5 +1,8 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 
@@ -15,6 +18,7 @@ namespace RibbonLib.Model
 
         public RibbonModelItemComboBox()
         {
+            Items = ItemsCollection;
         }
 
         /// <summary>
@@ -22,7 +26,11 @@ namespace RibbonLib.Model
         /// </summary>
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-        public ObservableCollection<object> Items { get; } = new ObservableCollection<object>();
+        public ObservableCollection<object> ItemsCollection
+        { get; } = new ObservableCollection<object>();
+
+        public virtual IEnumerable Items { get; set; }
+
 
         [DefaultValue(null)]
         public object SelectionBoxItem
@@ -44,7 +52,7 @@ namespace RibbonLib.Model
         public object CreateGallery()
         {
             var g = PrimaryRibbonModel.CreateGallery();
-            Items.Add(g);
+            ItemsCollection.Add(g);
             return g;
         }
 
@@ -68,5 +76,12 @@ namespace RibbonLib.Model
                 OnPropertyChanged();
             }
         }
+    }
+
+
+    public class RibbonModelItemFontComboBox : RibbonModelItemComboBox
+    {
+        public override IEnumerable Items =>
+            System.Windows.Media.Fonts.SystemFontFamilies;//.Select(z => new RibbonModelMenuItem(){Header=});
     }
 }

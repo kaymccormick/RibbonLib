@@ -49,9 +49,9 @@ namespace RibbonLib.Model
         {
             var r = new RibbonModelItemComboBox();
             Items.Add(r);
-            AddGalleryItems_(dictionary, r.Items);
+            AddGalleryItems_(dictionary, r.ItemsCollection);
             var ribbonModelItemComboBox = CreateRibbonGallery_(dictionary, "gal2");
-            r.Items.Add(ribbonModelItemComboBox);
+            r.ItemsCollection.Add(ribbonModelItemComboBox);
             return r;
         }
 

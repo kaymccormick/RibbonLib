@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
-    <PackageReference Include="System.Composition.AttributedModel" Version="1.0.31" />
+    <PackageReference Include="System.Composition.AttributedModel" Version="5.0.0-preview.6.20305.6" />
   </ItemGroup>
 
   <ItemGroup>

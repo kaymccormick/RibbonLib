@@ -14,6 +14,7 @@
         <Setter Property="ItemContainerStyle" Value="{StaticResource {x:Type RibbonTab}}" />
         <Setter Property="ContextualTabGroupsSource" Value="{Binding ContextualTabGroups}" />
     </Style>
+  <Style TargetType="Ribbon">
 
     <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelAppMenuItem}" ItemsSource="{Binding Items}"
                               >
@@ -189,10 +190,20 @@
                               ItemsSource="{Binding Items}">
         <TextBlock Text="{Binding Header,NotifyOnTargetUpdated=True}" />
     </HierarchicalDataTemplate>
-
     <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelItemComboBox}">
         <RibbonComboBox Label="{Binding Label,NotifyOnTargetUpdated=True}" ItemsSource="{Binding Items}"
                         ItemContainerTemplateSelector="{StaticResource ComboBoxTemplateSelector}"
                         UsesItemContainerTemplate="True" DisplayMemberPath="{Binding DisplayMemberPath}" />
     </HierarchicalDataTemplate>
+  <HierarchicalDataTemplate DataType="{x:Type FontFamily}">
+      <RibbonMenuItem FontFamily="{Binding}"
+                 Header="{Binding Path=FamilyNames[en-US]}" />
+  </HierarchicalDataTemplate>
+    <HierarchicalDataTemplate DataType="{x:Type model:RibbonModelItemFontComboBox}">
+          <RibbonComboBox Label="{Binding Label,NotifyOnTargetUpdated=True}" ItemsSource="{Binding Items}">
+              
+
+          </RibbonComboBox>
+
+      </HierarchicalDataTemplate>
 </ResourceDictionary>
